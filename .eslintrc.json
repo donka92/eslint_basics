@@ -1,0 +1,15 @@
+{
+    // "extends":[
+    //     "./abc.json"
+    // ],
+    "plugins": ["project-structure"],
+      
+    "rules": {
+        // "semi": "warn",
+        "project-structure/file-structure": "warn" // warn | error
+    },
+
+    "settings": {
+        "project-structure/config-path": "projectStructure.yaml" // json | yaml
+    }
+}

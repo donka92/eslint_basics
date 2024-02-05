@@ -1,0 +1,1 @@
+alter table tmp_table add column new_col number;

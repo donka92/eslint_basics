@@ -1,0 +1,13 @@
+structure:
+    children:
+        - extension: "*"
+        - name: src
+          children:
+              - name: index
+                extension: js
+              - name: create_table
+                extension: sql  
+              - name: components
+                children:
+                    - name: "/^${{PascalCase}}$/"
+                      extension: tsx
